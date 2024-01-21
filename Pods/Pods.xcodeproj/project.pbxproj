@@ -1,0 +1,986 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0749EE058FE13B1F5B867BB03750B182 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F4B56C9CB2A58226674F240CC8BBC1 /* QRScannerView.swift */; };
+		2E0EA42FF3F9C64585180E5DD2422571 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3FA64CC0150CC8785A449CD2BA0AE4A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5C3E4CC39E3E51B53B6A01E2D5120F23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BBFD8AC04281754F19F68CCE8054A4 /* Images.xcassets */; };
+		5F8BBE3B833E4414E4FEC4F278BC20B3 /* QRScannerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ABE4E419F519DDF97C79F4F9CFCF40 /* QRScannerError.swift */; };
+		70E6DE6D9EA3B5EAB94AB44AAF94B746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		74730C100990C9E8C0E474B8E4538652 /* Pods-strolyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 378D75A285BE0506AC832DDCF0FD7BA5 /* Pods-strolyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F4A84D9BCE8C9EB4FF6ECABFD7A1D1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		920AF6ECF125CAAEB2DC5DC602AC3127 /* Pods-stroly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE405D04BE7033099BC9997E262397 /* Pods-stroly-dummy.m */; };
+		9F7810726814BD6C57008D3896B939F3 /* Pods-stroly-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDF7FD2149F377CBEDECF9EC6F5D636 /* Pods-stroly-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D8C3EFDD38B6A725C235D08C05F4DA /* Bundle+Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3F1283F84C0EF5234BB575ED84816 /* Bundle+Module.swift */; };
+		BF6B694AA2B8D3B64A9F4ABB24BBA8BD /* MercariQRScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00015A879E594CB6669BD94C8C53C7AF /* MercariQRScanner-dummy.m */; };
+		CB6CA55E19F6E08B7CC05B1CD9F08AA7 /* MercariQRScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B89956AA3619B3688B3A9080D9999C0F /* MercariQRScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0779E66668ED1E7788677EAEB532A1A /* Pods-strolyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7F8E94F81B1DEEC0618334669E84B /* Pods-strolyTests-dummy.m */; };
+		ECB473239BC5998D763D51F87DFF989F /* Pods-stroly-strolyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3797A5CAF0CF7C506B519DC852075A1E /* Pods-stroly-strolyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD81A65902141FD51B02ED3771B2975C /* Pods-stroly-strolyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E0932356C262AF5B898AE839364C0 /* Pods-stroly-strolyUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		053720C3850119B1704EDEB3FB369781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52E6DA0104A4F8C767EF42CAE3D09F4;
+			remoteInfo = MercariQRScanner;
+		};
+		272361E2813B46B8447245885CCDC9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52E6DA0104A4F8C767EF42CAE3D09F4;
+			remoteInfo = MercariQRScanner;
+		};
+		9A277E97CE5DCE71E0B062E988294126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C1273F403E1F4B8DBB6F3C8C77D8D44;
+			remoteInfo = "Pods-stroly";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00015A879E594CB6669BD94C8C53C7AF /* MercariQRScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MercariQRScanner-dummy.m"; sourceTree = "<group>"; };
+		0B054385BF235B1F6EA765492828B9AA /* Pods-stroly-strolyUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-stroly-strolyUITests"; path = Pods_stroly_strolyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4FC43244F3384A6E43B3E3710B0496 /* Pods-stroly-strolyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stroly-strolyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		162617D0E209F170DCB2A09E7147DCDE /* Pods-stroly-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stroly-frameworks.sh"; sourceTree = "<group>"; };
+		1F8608EAC40B568EEE0795D62843B8B6 /* MercariQRScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MercariQRScanner.release.xcconfig; sourceTree = "<group>"; };
+		20E53906C85E9E09ABC217C339FFAEAF /* Pods-strolyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-strolyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33ABE4E419F519DDF97C79F4F9CFCF40 /* QRScannerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRScannerError.swift; path = QRScanner/QRScannerError.swift; sourceTree = "<group>"; };
+		378D75A285BE0506AC832DDCF0FD7BA5 /* Pods-strolyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-strolyTests-umbrella.h"; sourceTree = "<group>"; };
+		3797A5CAF0CF7C506B519DC852075A1E /* Pods-stroly-strolyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stroly-strolyUITests-umbrella.h"; sourceTree = "<group>"; };
+		3AB2286FE379FC3663DD0B12B1BAC849 /* Pods-strolyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-strolyTests.release.xcconfig"; sourceTree = "<group>"; };
+		3BBA6D33160C35EA58B03DAA11BBA424 /* Pods-stroly-strolyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stroly-strolyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CAB62AECEAB395B4776B46E67C7D42D /* Pods-strolyTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-strolyTests-Info.plist"; sourceTree = "<group>"; };
+		447D341E905535F3C48B17F4366F9214 /* Pods-strolyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-strolyTests.modulemap"; sourceTree = "<group>"; };
+		46167C79EA852570F61247229481052A /* Pods-strolyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-strolyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		52D86FB8BA8DFD4029F2504DF8752531 /* Pods-stroly-strolyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stroly-strolyUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5D7E0932356C262AF5B898AE839364C0 /* Pods-stroly-strolyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-stroly-strolyUITests-dummy.m"; sourceTree = "<group>"; };
+		66BBFD8AC04281754F19F68CCE8054A4 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = QRScanner/Images.xcassets; sourceTree = "<group>"; };
+		6FEE405D04BE7033099BC9997E262397 /* Pods-stroly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-stroly-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CDF30802E7938B253ACEAED16543B76 /* MercariQRScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MercariQRScanner-Info.plist"; sourceTree = "<group>"; };
+		7FB7F8E94F81B1DEEC0618334669E84B /* Pods-strolyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-strolyTests-dummy.m"; sourceTree = "<group>"; };
+		8166AE1636293E6B7D0E83AA05948D4F /* Pods-stroly-strolyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stroly-strolyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82F4B56C9CB2A58226674F240CC8BBC1 /* QRScannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRScannerView.swift; path = QRScanner/QRScannerView.swift; sourceTree = "<group>"; };
+		86046100B661C11A8254DE9E778F384C /* Pods-stroly-strolyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-stroly-strolyUITests.modulemap"; sourceTree = "<group>"; };
+		8D5F32BBAF988483AAA37FB54EDB2B89 /* Pods-stroly-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stroly-Info.plist"; sourceTree = "<group>"; };
+		8FE8EFA35A8812D0FA31999E0C2B9744 /* Pods-strolyTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-strolyTests"; path = Pods_strolyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		915361CF4F5BEB9ECA5F7A89DAE63096 /* MercariQRScanner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MercariQRScanner; path = MercariQRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3597F3BA663567756DDC014402971CB /* Pods-strolyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-strolyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A760852618E8101EE71346A3E1DBFD01 /* Pods-stroly-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stroly-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEA087CBA76543A3EFDB2DF9F25C9C79 /* MercariQRScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MercariQRScanner.modulemap; sourceTree = "<group>"; };
+		B26EA3AD334D2015CA807C894B1DFB32 /* Pods-stroly-strolyUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stroly-strolyUITests-Info.plist"; sourceTree = "<group>"; };
+		B69722B8A3C53CCE3C96D62FBA04FC46 /* Pods-stroly-strolyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-stroly-strolyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B77A3DCD326C12B2F0A8DA9BB69CDBD9 /* MercariQRScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MercariQRScanner.debug.xcconfig; sourceTree = "<group>"; };
+		B89956AA3619B3688B3A9080D9999C0F /* MercariQRScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MercariQRScanner-umbrella.h"; sourceTree = "<group>"; };
+		BC05FB77F363013B3816BDEFF06EA24B /* MercariQRScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MercariQRScanner-prefix.pch"; sourceTree = "<group>"; };
+		CF48386B3F00BE16D01917836BD50B47 /* Pods-stroly.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-stroly.modulemap"; sourceTree = "<group>"; };
+		DAE3F1283F84C0EF5234BB575ED84816 /* Bundle+Module.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Module.swift"; path = "QRScanner/Bundle+Module.swift"; sourceTree = "<group>"; };
+		DBBAE8C5D526A46E061C4CD9DF9D09EA /* Pods-stroly */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-stroly"; path = Pods_stroly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDF7FD2149F377CBEDECF9EC6F5D636 /* Pods-stroly-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stroly-umbrella.h"; sourceTree = "<group>"; };
+		DD96D4E3641801FA25392FFDE7EE6627 /* Pods-stroly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stroly.release.xcconfig"; sourceTree = "<group>"; };
+		EDC7F83D00FF8F65B8FC49511C23290A /* Pods-stroly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stroly.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF54C3537B82E4928A9ED15EA7ED8E7 /* Pods-stroly-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-stroly-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		084071B718B4D37BF33B5A5F03EF73FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E6DE6D9EA3B5EAB94AB44AAF94B746 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A6F86BA2803C14A9F67847915AA75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA64CC0150CC8785A449CD2BA0AE4A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFD108342AD476FC247C0F45A35FB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4A84D9BCE8C9EB4FF6ECABFD7A1D1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2406BCB685007B1F1D514FFBD2D4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0EA42FF3F9C64585180E5DD2422571 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0599F5B564476E31F7700E6088851526 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66BBFD8AC04281754F19F68CCE8054A4 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		40D8024AF60195091519ADA96EFBBC19 /* Pods-strolyTests */ = {
+			isa = PBXGroup;
+			children = (
+				447D341E905535F3C48B17F4366F9214 /* Pods-strolyTests.modulemap */,
+				A3597F3BA663567756DDC014402971CB /* Pods-strolyTests-acknowledgements.markdown */,
+				46167C79EA852570F61247229481052A /* Pods-strolyTests-acknowledgements.plist */,
+				7FB7F8E94F81B1DEEC0618334669E84B /* Pods-strolyTests-dummy.m */,
+				3CAB62AECEAB395B4776B46E67C7D42D /* Pods-strolyTests-Info.plist */,
+				378D75A285BE0506AC832DDCF0FD7BA5 /* Pods-strolyTests-umbrella.h */,
+				20E53906C85E9E09ABC217C339FFAEAF /* Pods-strolyTests.debug.xcconfig */,
+				3AB2286FE379FC3663DD0B12B1BAC849 /* Pods-strolyTests.release.xcconfig */,
+			);
+			name = "Pods-strolyTests";
+			path = "Target Support Files/Pods-strolyTests";
+			sourceTree = "<group>";
+		};
+		5610CEB7C35C61E4E68657A1268D3DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				915361CF4F5BEB9ECA5F7A89DAE63096 /* MercariQRScanner */,
+				DBBAE8C5D526A46E061C4CD9DF9D09EA /* Pods-stroly */,
+				0B054385BF235B1F6EA765492828B9AA /* Pods-stroly-strolyUITests */,
+				8FE8EFA35A8812D0FA31999E0C2B9744 /* Pods-strolyTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		91161C11CAFC1C1D14E0CD259C5B544C /* Pods-stroly-strolyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86046100B661C11A8254DE9E778F384C /* Pods-stroly-strolyUITests.modulemap */,
+				B69722B8A3C53CCE3C96D62FBA04FC46 /* Pods-stroly-strolyUITests-acknowledgements.markdown */,
+				0F4FC43244F3384A6E43B3E3710B0496 /* Pods-stroly-strolyUITests-acknowledgements.plist */,
+				5D7E0932356C262AF5B898AE839364C0 /* Pods-stroly-strolyUITests-dummy.m */,
+				52D86FB8BA8DFD4029F2504DF8752531 /* Pods-stroly-strolyUITests-frameworks.sh */,
+				B26EA3AD334D2015CA807C894B1DFB32 /* Pods-stroly-strolyUITests-Info.plist */,
+				3797A5CAF0CF7C506B519DC852075A1E /* Pods-stroly-strolyUITests-umbrella.h */,
+				3BBA6D33160C35EA58B03DAA11BBA424 /* Pods-stroly-strolyUITests.debug.xcconfig */,
+				8166AE1636293E6B7D0E83AA05948D4F /* Pods-stroly-strolyUITests.release.xcconfig */,
+			);
+			name = "Pods-stroly-strolyUITests";
+			path = "Target Support Files/Pods-stroly-strolyUITests";
+			sourceTree = "<group>";
+		};
+		930B5FD04E913DB2C9880E9D655B7C84 /* Pods-stroly */ = {
+			isa = PBXGroup;
+			children = (
+				CF48386B3F00BE16D01917836BD50B47 /* Pods-stroly.modulemap */,
+				FFF54C3537B82E4928A9ED15EA7ED8E7 /* Pods-stroly-acknowledgements.markdown */,
+				A760852618E8101EE71346A3E1DBFD01 /* Pods-stroly-acknowledgements.plist */,
+				6FEE405D04BE7033099BC9997E262397 /* Pods-stroly-dummy.m */,
+				162617D0E209F170DCB2A09E7147DCDE /* Pods-stroly-frameworks.sh */,
+				8D5F32BBAF988483AAA37FB54EDB2B89 /* Pods-stroly-Info.plist */,
+				DCDF7FD2149F377CBEDECF9EC6F5D636 /* Pods-stroly-umbrella.h */,
+				EDC7F83D00FF8F65B8FC49511C23290A /* Pods-stroly.debug.xcconfig */,
+				DD96D4E3641801FA25392FFDE7EE6627 /* Pods-stroly.release.xcconfig */,
+			);
+			name = "Pods-stroly";
+			path = "Target Support Files/Pods-stroly";
+			sourceTree = "<group>";
+		};
+		B97F959C5FB71B1C83D1690233562FC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D06F0DF67B86F24851D5C41891086E09 /* MercariQRScanner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF8EF7F4990E40CE1F6128B0FD214E1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEA087CBA76543A3EFDB2DF9F25C9C79 /* MercariQRScanner.modulemap */,
+				00015A879E594CB6669BD94C8C53C7AF /* MercariQRScanner-dummy.m */,
+				7CDF30802E7938B253ACEAED16543B76 /* MercariQRScanner-Info.plist */,
+				BC05FB77F363013B3816BDEFF06EA24B /* MercariQRScanner-prefix.pch */,
+				B89956AA3619B3688B3A9080D9999C0F /* MercariQRScanner-umbrella.h */,
+				B77A3DCD326C12B2F0A8DA9BB69CDBD9 /* MercariQRScanner.debug.xcconfig */,
+				1F8608EAC40B568EEE0795D62843B8B6 /* MercariQRScanner.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MercariQRScanner";
+			sourceTree = "<group>";
+		};
+		C950DEB0370B0EB0DA5919EBC659BF5C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				930B5FD04E913DB2C9880E9D655B7C84 /* Pods-stroly */,
+				91161C11CAFC1C1D14E0CD259C5B544C /* Pods-stroly-strolyUITests */,
+				40D8024AF60195091519ADA96EFBBC19 /* Pods-strolyTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B97F959C5FB71B1C83D1690233562FC3 /* Pods */,
+				5610CEB7C35C61E4E68657A1268D3DA7 /* Products */,
+				C950DEB0370B0EB0DA5919EBC659BF5C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D06F0DF67B86F24851D5C41891086E09 /* MercariQRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				DAE3F1283F84C0EF5234BB575ED84816 /* Bundle+Module.swift */,
+				33ABE4E419F519DDF97C79F4F9CFCF40 /* QRScannerError.swift */,
+				82F4B56C9CB2A58226674F240CC8BBC1 /* QRScannerView.swift */,
+				0599F5B564476E31F7700E6088851526 /* Resources */,
+				BF8EF7F4990E40CE1F6128B0FD214E1D /* Support Files */,
+			);
+			name = MercariQRScanner;
+			path = MercariQRScanner;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		57BD09A4FAE5E08FBE2413C484057E3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6CA55E19F6E08B7CC05B1CD9F08AA7 /* MercariQRScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC818062DFB2777A81841BFB16C5189 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74730C100990C9E8C0E474B8E4538652 /* Pods-strolyTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B834D5D815B5E6FC92F5AEF8EA74B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7810726814BD6C57008D3896B939F3 /* Pods-stroly-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5759FE1C5F3AD1385AEFFC41FE37DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB473239BC5998D763D51F87DFF989F /* Pods-stroly-strolyUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7C1273F403E1F4B8DBB6F3C8C77D8D44 /* Pods-stroly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910ACDA9BD8538C035EA834E33DBD9E7 /* Build configuration list for PBXNativeTarget "Pods-stroly" */;
+			buildPhases = (
+				88B834D5D815B5E6FC92F5AEF8EA74B3 /* Headers */,
+				0072F26E8380E1EA0834676FEF8B0BC4 /* Sources */,
+				9DFD108342AD476FC247C0F45A35FB85 /* Frameworks */,
+				43D433CAAA9EDC5087C9B3DD9F74C46C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91CD10E222C319BA2DD992D4E939B9A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-stroly";
+			productName = Pods_stroly;
+			productReference = DBBAE8C5D526A46E061C4CD9DF9D09EA /* Pods-stroly */;
+			productType = "com.apple.product-type.framework";
+		};
+		9198D459999BBA2581583B211D9C5DE3 /* Pods-strolyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C280D8248B09C6C488344A916D18BFB9 /* Build configuration list for PBXNativeTarget "Pods-strolyTests" */;
+			buildPhases = (
+				6CC818062DFB2777A81841BFB16C5189 /* Headers */,
+				CE1569C1285E32CC1A9BCCD49E38ECDD /* Sources */,
+				084071B718B4D37BF33B5A5F03EF73FF /* Frameworks */,
+				C4F717589D126AA3821E41A311ACD969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8500BEA9CDCA834ECDF47C1132BFBE51 /* PBXTargetDependency */,
+			);
+			name = "Pods-strolyTests";
+			productName = Pods_strolyTests;
+			productReference = 8FE8EFA35A8812D0FA31999E0C2B9744 /* Pods-strolyTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F351A1E6126F7A898D2DCED701A7CA15 /* Pods-stroly-strolyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A72365C36455CB6D0344A83266AF355 /* Build configuration list for PBXNativeTarget "Pods-stroly-strolyUITests" */;
+			buildPhases = (
+				DA5759FE1C5F3AD1385AEFFC41FE37DE /* Headers */,
+				B4080F2FC07C55793B33967586774483 /* Sources */,
+				AC2406BCB685007B1F1D514FFBD2D4FE /* Frameworks */,
+				06CA536F312D38E9784AC320E0CF9C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA906AE5C7B10FA2C803B5E036B9E2A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-stroly-strolyUITests";
+			productName = Pods_stroly_strolyUITests;
+			productReference = 0B054385BF235B1F6EA765492828B9AA /* Pods-stroly-strolyUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F52E6DA0104A4F8C767EF42CAE3D09F4 /* MercariQRScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB8D3C965A40C5A7E49FD2AFDD1087B /* Build configuration list for PBXNativeTarget "MercariQRScanner" */;
+			buildPhases = (
+				57BD09A4FAE5E08FBE2413C484057E3E /* Headers */,
+				D289E0F76A764BA9C83ACE956D6A27A0 /* Sources */,
+				24A6F86BA2803C14A9F67847915AA75C /* Frameworks */,
+				B502629C5C3C8ACAB881BDB1CB86A009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MercariQRScanner;
+			productName = MercariQRScanner;
+			productReference = 915361CF4F5BEB9ECA5F7A89DAE63096 /* MercariQRScanner */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5610CEB7C35C61E4E68657A1268D3DA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F52E6DA0104A4F8C767EF42CAE3D09F4 /* MercariQRScanner */,
+				7C1273F403E1F4B8DBB6F3C8C77D8D44 /* Pods-stroly */,
+				F351A1E6126F7A898D2DCED701A7CA15 /* Pods-stroly-strolyUITests */,
+				9198D459999BBA2581583B211D9C5DE3 /* Pods-strolyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06CA536F312D38E9784AC320E0CF9C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D433CAAA9EDC5087C9B3DD9F74C46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B502629C5C3C8ACAB881BDB1CB86A009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3E4CC39E3E51B53B6A01E2D5120F23 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F717589D126AA3821E41A311ACD969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0072F26E8380E1EA0834676FEF8B0BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920AF6ECF125CAAEB2DC5DC602AC3127 /* Pods-stroly-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4080F2FC07C55793B33967586774483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD81A65902141FD51B02ED3771B2975C /* Pods-stroly-strolyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1569C1285E32CC1A9BCCD49E38ECDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0779E66668ED1E7788677EAEB532A1A /* Pods-strolyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D289E0F76A764BA9C83ACE956D6A27A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D8C3EFDD38B6A725C235D08C05F4DA /* Bundle+Module.swift in Sources */,
+				BF6B694AA2B8D3B64A9F4ABB24BBA8BD /* MercariQRScanner-dummy.m in Sources */,
+				5F8BBE3B833E4414E4FEC4F278BC20B3 /* QRScannerError.swift in Sources */,
+				0749EE058FE13B1F5B867BB03750B182 /* QRScannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8500BEA9CDCA834ECDF47C1132BFBE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-stroly";
+			target = 7C1273F403E1F4B8DBB6F3C8C77D8D44 /* Pods-stroly */;
+			targetProxy = 9A277E97CE5DCE71E0B062E988294126 /* PBXContainerItemProxy */;
+		};
+		91CD10E222C319BA2DD992D4E939B9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MercariQRScanner;
+			target = F52E6DA0104A4F8C767EF42CAE3D09F4 /* MercariQRScanner */;
+			targetProxy = 053720C3850119B1704EDEB3FB369781 /* PBXContainerItemProxy */;
+		};
+		DA906AE5C7B10FA2C803B5E036B9E2A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MercariQRScanner;
+			target = F52E6DA0104A4F8C767EF42CAE3D09F4 /* MercariQRScanner */;
+			targetProxy = 272361E2813B46B8447245885CCDC9D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1745DB042AADA0BE4F95E757A4D21593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC7F83D00FF8F65B8FC49511C23290A /* Pods-stroly.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-stroly/Pods-stroly-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stroly/Pods-stroly.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E7B1831E1D92B74FFABAA7B63A4C738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBA6D33160C35EA58B03DAA11BBA424 /* Pods-stroly-strolyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-stroly-strolyUITests/Pods-stroly-strolyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stroly-strolyUITests/Pods-stroly-strolyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		353310E7DF2D6B146F0049A1DD78A655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77A3DCD326C12B2F0A8DA9BB69CDBD9 /* MercariQRScanner.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MercariQRScanner/MercariQRScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MercariQRScanner/MercariQRScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MercariQRScanner/MercariQRScanner.modulemap";
+				PRODUCT_MODULE_NAME = MercariQRScanner;
+				PRODUCT_NAME = MercariQRScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41CE638D9FA043558C865CF4C8054B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD96D4E3641801FA25392FFDE7EE6627 /* Pods-stroly.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-stroly/Pods-stroly-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stroly/Pods-stroly.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57727A22F71843698E95174E92AD2E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E53906C85E9E09ABC217C339FFAEAF /* Pods-strolyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-strolyTests/Pods-strolyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-strolyTests/Pods-strolyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6231503181B0E2522D13DD29B9BE0F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8166AE1636293E6B7D0E83AA05948D4F /* Pods-stroly-strolyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-stroly-strolyUITests/Pods-stroly-strolyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stroly-strolyUITests/Pods-stroly-strolyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ACA7954D7FFCA169C6E47133A504DC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB2286FE379FC3663DD0B12B1BAC849 /* Pods-strolyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-strolyTests/Pods-strolyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-strolyTests/Pods-strolyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C730C48A0A6F5C89DDDFCD2D09313F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8608EAC40B568EEE0795D62843B8B6 /* MercariQRScanner.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MercariQRScanner/MercariQRScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MercariQRScanner/MercariQRScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MercariQRScanner/MercariQRScanner.modulemap";
+				PRODUCT_MODULE_NAME = MercariQRScanner;
+				PRODUCT_NAME = MercariQRScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E873CA97BD124B21839AF13C9BE1CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */,
+				E873CA97BD124B21839AF13C9BE1CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A72365C36455CB6D0344A83266AF355 /* Build configuration list for PBXNativeTarget "Pods-stroly-strolyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E7B1831E1D92B74FFABAA7B63A4C738 /* Debug */,
+				6231503181B0E2522D13DD29B9BE0F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB8D3C965A40C5A7E49FD2AFDD1087B /* Build configuration list for PBXNativeTarget "MercariQRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353310E7DF2D6B146F0049A1DD78A655 /* Debug */,
+				C730C48A0A6F5C89DDDFCD2D09313F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910ACDA9BD8538C035EA834E33DBD9E7 /* Build configuration list for PBXNativeTarget "Pods-stroly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1745DB042AADA0BE4F95E757A4D21593 /* Debug */,
+				41CE638D9FA043558C865CF4C8054B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C280D8248B09C6C488344A916D18BFB9 /* Build configuration list for PBXNativeTarget "Pods-strolyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57727A22F71843698E95174E92AD2E5D /* Debug */,
+				ACA7954D7FFCA169C6E47133A504DC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

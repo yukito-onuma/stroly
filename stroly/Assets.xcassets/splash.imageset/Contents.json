@@ -1,0 +1,19 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "Group 34-5.svg",
+      "idiom" : "iphone"
+    },
+    {
+      "filename" : "Group 34-5 1.svg",
+      "idiom" : "ipad"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
